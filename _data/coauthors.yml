@@ -1,78 +1,61 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Borrelli":
+  - firstname: ["Francesco", "F."]
+    url: https://scholar.google.com/citations?user=Cz-Q_IsAAAAJ
+"Bujarbaruah":
+  - firstname: ["Monimoy", "M."]
+    url: https://scholar.google.com/citations?user=7jXLEb0AAAAJ
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Rosolia":
+  - firstname: ["Ugo", "U."]
+    url: https://scholar.google.it/citations?user=s4mZnz8AAAAJ
+"Nair":
+  - firstname: ["Siddharth H.", "S. H."]
+    url: https://scholar.google.com/citations?user=QhdbzpsAAAAJ
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Govindarajan": 
+  - firstname: ["Vijay", "V."]
+    url: https://scholar.google.com/citations?user=umuXJxYAAAAJ
+"Tseng":
+  - firstname: ["Eric H.", "H.E."]
+    url: https://scholar.google.com/citations?user=UWnwlu4AAAAJ
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Wang":
+  - firstname: ["Yan", "Y."]
+    url: https://scholar.google.com/citations?user=PCA9jesAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Oliviera":
+  - firstname: ["Rui", "R."]
+    url: https://scholar.google.se/citations?user=K6nusBYAAAAJ
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Lin":
+  - firstname: ["Theresa", "T."]
+    url: https://dblp.org/pid/154/8091.html
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Meissen":
+  - firstname: ["Chris", "C."]
+    url: https://scholar.google.com/citations?user=3JlWleoAAAAJ
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Russo":
+  - firstname: ["Luigi", "L."]
+    url: https://scholar.google.com/citations?user=jIqKYLsAAAAJ
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
-
-"Moyer":
-  - firstname: ["Daniel"]
-    url: https://dcmoyer.github.io/
-
-"Golland":
-  - firstname: ["Polina"]
-    url: https://people.csail.mit.edu/polina/
-
-"Adalsteinsson":
-  - firstname: ['Elfar', "E."]
+"Banavar":
+  - firstname: ['Ravi N.', "R.N."]
     url: https://www.rle.mit.edu/people/directory/elfar-adalsteinsson/
 
-"Gagoski":
-  - firstname: ['Borjan', "B."]
-    url: https://scholar.google.com/citations?user=mXUhe04AAAAJ
+"Sinha":
+  - firstname: ['Arpita', "A."]
+    url: https://scholar.google.co.in/citations?user=RtTAXzcAAAAJ
 
-"Grant":
-  - firstname: ["P. Ellen", "Ellen", "Patricia Ellen"]
-    url: https://scholar.google.com/citations?user=W4dqZ7EAAAAJ
+"Walhberg":
+  - firstname: ["Bo ", "B."]
+    url: https://scholar.google.co.in/citations?user=fDeSgLwAAAAJ
 
-"Turk":
-  - firstname: ["Esra Abaci", "Esra", "E. A."]
-    url: https://scholar.google.com/citations?user=HYUyyTsAAAAJ
 
-"Arefeen":
-  - firstname: ["Yamin", "Y."]
-    url: https://yaminarefeen.github.io/
+"Stürz":
+  - firstname: ["Yvonne R.", "Y. R."]
+    url: https://scholar.google.ch/citations?user=PnRPRA8AAAAJ
 
-"Zhang":
-  - firstname: ["Molin"]
-    url: https://scholar.google.com/citations?user=M6LlDA4AAAAJ
-
-"Pauly":
-  - firstname: ["John", "John M.", "J. M."]  
-    url: https://web.stanford.edu/~pauly/
-
-"Zaharchuk":
-  - firstname: ["Greg"]
-    url: https://profiles.stanford.edu/greg-zaharchuk
-
-"Iglesias":
-  - firstname: ["Juan Eugenio", "J. E."]
-    url: https://scholar.harvard.edu/iglesias
+"Subbarao":
+  - firstname: ["Kamesh"]
+  - url: https://scholar.google.com/citations?user=i9rye7IAAAAJ

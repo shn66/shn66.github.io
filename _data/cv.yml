@@ -2,65 +2,64 @@
   type: map
   contents:
     - name: Full Name
-      value: Junshen Xu
+      value: Siddharth Hari Nair
     #- name: Date of Birth
     #  value: 14th March 1879
     - name: Email
-      value: junshen [at] mit [dot] edu
+      value: siddharth_nair [at] berkeley [dot] edu
     - name: Languages
-      value: English, Chinese
+      value: English, Hindi, Malayalam
+    # - na: Languages
+    #   value: English, Hindi, Malayalam
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Electrical Engineering and Computer Science
-      institution: Massachusetts Institute of Technology
-      year: 2018 - 2023
-    - title: S.M. in Electrical Engineering and Computer Science
-      institution: Massachusetts Institute of Technology
-      year: 2018 - 2020
-      #description:
-      #  - Description 1.
-      #  - Description 2.
-    - title: B.E. in Engineering Physics
-      institution: Tsinghua University
-      year: 2014 - 2018
-      #description:
-      #  - Description 1.
-      #  - Description 2.
+    - title: Ph.D. in Controls 
+      institution: University of California, Berkeley
+      year: 2018 - present
+      description:
+       - 'Advisor : Prof. Francesco Borrelli'
+       - 'Topic   : Learning-based Nonlinear Model Predictive Control' 
+       - 'Minors  : Optimization, Machine Learning'
+    - title: B.Tech. + M.Tech. in Aerospace Engineering
+      institution: Indian Institute of Technology Bombay
+      year: 2013 - 2018
+      description:
+       - 'Minor   : Systems and Control Engineering'
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Assistant
-      institution: Massachusetts Institute of Technology
+    - title: Graduate Research Assistant
+      institution: Department of Mechanical Engineering, UC Berkeley
       year: 2018 - present
       description:
-        - 2D-to-3D reconstruction
-        - Image quality assessment
-        - 3D pose estimation pipeline for fetal MRI
-    - title: Machine Learning Engineer Intern
-      institution: Instagram Reels Core Ranking @ Meta
-      year: May - Aug 2022
+        - 'Project 1 : Data-driven robust MPC for nonlinear systems' 
+        - 'Project 2 : Collision avoidance with multi-modal predictions for autonomous driving'
+        - 'Project 3 : Fast control synthesis for mixed-integer MPC'
+    - title: Student Researcher
+      institution : Systems and Control Engineering, IIT Bombay
+      year: 2016 - 2018
       description:
-        - Mitigated short video bias in Reels
-    - title: Software Engineer Intern
-      institution: Adwords Insights Team @ Google
-      year: Jun - Aug 2021
+        - "Project 1 : Motion planning with Hilbert's space-filling curve" 
+        - 'Project 2 : Cooperative control for load-carrying drones'
+        - 'Project 3 : Disrete optimal control on matrix Lie groups'
+    - title: Internship
+      institution: Drona Aviation Pvt. Ltd.
+      year: Aug - Nov 2017
       description:
-        - Improved keyword classification in search ads
-        - Developed algorithms to detect the cold start of bidding strategies
-    - title: Research Scientist Intern
-      institution: United Imaging Intellignece America
-      year: Jun - Aug 2020
+        - 'State estimation for nano drones'
+    - title: Undergraduate Research Internship
+      institution: University of Texas, Arlington
+      year: May - July 2016
       description:
-        - Multi-modal image registration with neural ODE
-        - Differentiable Digitally Reconstructed Radiograph (DRR)
-    - title: Research Assistant
-      institution: Stanford University
-      year: Jun - Aug 2017
+        - 'Consensus control for spacecraft in the presence of communication delays'
+    - title: Undergraduate Research Internship
+      institution: Indian Institute of Science, Bangalore
+      year: May - July 2015
       description:
-        - Low dose PET reconstruction with deep learning
+        - 'Circumnavigation for UAVs with range-only measurements'
 
 # - title: Open Source Projects
 #   type: time_table
@@ -69,16 +68,24 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+- title: Honors and Achievements
+  type: time_table
+  contents:
+    - year: 2021
+      items: 
+        - Keynote Speaker at 7th IFAC Conference on Nonlinear Model Predictive Control
+    - year: 2019
+      items: 
+        - IEEE CSS Student Travel Award
+    - year: 2018
+      items: 
+        - Institute Silver Medal from IIT Bombay, for graduating with the highest GPA in my program
+    - year: 2017
+      items:
+        - Undergraduate Research Awards 1 and 2, for Bachelor's thesis and undergraduate research
+        - IEEE CSS Student Travel Award
+
+    
 
 # - title: Academic Interests
 #   type: nested_list

@@ -1,80 +1,82 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Multi-modal Collision Avoidance
+description: Designing efficient MPC schemes for avoiding collisions against obstacles with dynamic, multi-modal uncertainties
+img: assets/img/proj2.gif
 importance: 2
-category: work
+category: UC Berkeley
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+On this page, we highlight our work on efficient, non-conservative collision avoidance in the presence of multi-modal predictions of traffic vehicles, for autonomous driving.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+Our main theoretical contributions include:
+
+ <i>(1)</i> <b>Robust, Stochastic and Distributionally Robust MPC formulations that optimize over a novel feedback policy class designed to exploit additional structure in the multi-modal predictions, and that is amenable to convex programming </b>. 
+  <div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/no_pol_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pol_new.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   On the left, the ego vehicle plans using open-loop predictions. On the right, the ego vehicle plans using multi-modal policies
+</div>
+
+ The use of feedback policies for prediction is motivated by the need for reduced conservatism in handling multi-modal predictions of the surrounding vehicles, especially prevalent in urban driving scenarios. 
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include googleDrivePlayer.html id="1IKW7o9npx8SbyBD9x_NArcBp3svfztAD/preview" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include googleDrivePlayer.html id="1aqGxcNWGwr-ICOIOesLP1zobcy54yxXB/preview" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Multi-modal collision avoidance for an unprotected left turn in CARLA. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
-
+ <i>(2)</i> <b>Convexified, optimization-based collision avoidance between convex sets in the presence of uncertainty</b>. 
+ 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/of.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/obca.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+   On the left, typical vehicle geometry representations. On the right, an illustration of separating hyperplanes found by the MPC algorithm
 </div>
 
+Collision avoidance constraints in the presence of uncertainty, are typically imposed by conservatively approximating the vehicle geometry as a (i) point, (ii) affine space, (iii) spheres or (iv) ellipsoids, instead of using polytopes to avoid non-smooth constraints. We use the dual perspective of collision avoidance to find separating hyperplanes between vehicles expressed as polytopes, while simulatenously accounting for the uncertainty in their locations.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/carla_sim.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+   We compare the separating hyperplane optimization approach, with the conventional, ellipsoidal approximation approach. We see that the former produces tighter turns even in the presence of uncertainty.
+</div>
+
+
+For more details, please see our papers from <a href="https://arxiv.org/pdf/2109.09792.pdf">ITSC'22</a> and <a href="https://arxiv.org/pdf/2208.03529.pdf">CDC'22</a>.
+
+
+## Full-scale Vehicle Experiments COMING SOON!
+
+
+
+
+

@@ -1,36 +1,28 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"CDC":
+  url: https://ieeexplore.ieee.org/servlet/opac?punumber=9992315
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"NMPC":
+  url: https://nmpc2024.org/
 
-"MICCAI":
-  url: http://www.miccai.org/
+"NOLCOS":
+  url: https://nolcos2022.com/
 
-"MRM":
-  url: https://onlinelibrary.wiley.com/journal/15222594
+"ECC":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1803817/all-proceedings
 
-"Radiology":
-  url: https://pubs.rsna.org/journal/radiology
+"ITSC":
+  url: https://ieee-itss.org/conf/itsc/
 
-"PIPPI":
-  url: https://pippiworkshop.github.io/
+"IV":
+  url: https://ieee-itss.org/conf/iv/
 
-"ArXiv":
-  url: 
+"L-CSS":
+  url: http://ieee-cssletters.dei.unipd.it/index.php
 
-"NMC":
-  url: https://journals.lww.com/nuclearmedicinecomm
+"IFAC WC":
+  url: https://www.ifac2020.org/
 
-"DNE":
-  url: https://www.karger.com/journal/Home/224107
+"Arxiv":
+  url: https://arxiv.org/search/cs?searchtype=author&query=Nair%2C+S+H
 
-"TMI":
-  url: https://www.embs.org/tmi/
-
-"MIDL":
-  url: https://www.midl.io/
-
-"Thesis":
-  url: https://dspace.mit.edu/

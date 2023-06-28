@@ -1,80 +1,29 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Optimal Control on Lie Groups
+description: Control synthesis for load-carrying drones, Varational integrators for coupled systems
+img: assets/img/iitb.gif
 importance: 3
-category: fun
+category: IIT Bombay
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Cooperative Control Strategies for Load Carrying Drones
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="https://www.youtube.com/embed/nGNS-eZxbVM" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+We consider a novel problem in cooperative control of quadrotors - a group of quadrotors carrying a ball and plate system slung via inextensible tethers. 
 
+The ball and plate system, being underactuated itself, adds an additional layer of complexity to the control design problem. The aim of this research is to synthesize controls for the quadrotors to stabilize the underactuated payload.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This work was done under the guidance of Prof. Ravi N. Banavar for my Bachelor's thesis which won the <b>Undergraduate Research Award - 02</b>. More details can be found in our <a href="https://arxiv.org/abs/1707.00661">paper</a> from ACC 2019.
 
+## Discrete Optimal Control for Interconnected Mechanical Systems
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+In this work, we develop variational integrators for a class of underactuated mechanical systems using the theory of discrete mechanics. Further, a discrete optimal control problem is formulated for the considered class of systems and subsequently solved to obtain necessary conditions that characterise optimal trajectories.
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+This work was done under the guidance of Prof. Ravi N. Banavar for my Master's thesis. More details can be found in our <a href="https://arxiv.org/abs/1809.09191">paper</a> from NOLCOS 2019.
