@@ -279,7 +279,47 @@
 
 <p>For more details, please see our papers from <a href="https://arxiv.org/pdf/2109.09792.pdf" rel="external nofollow noopener" target="_blank">ITSC’22</a> and <a href="https://arxiv.org/pdf/2208.03529.pdf" rel="external nofollow noopener" target="_blank">CDC’22</a>.</p>
 
-<h2 id="full-scale-vehicle-experiments-coming-soon">Full-scale Vehicle Experiments COMING SOON!</h2>
+<h1 id="upcoming">Upcoming:</h1>
+<p>In addition to using multi-modal policies, we derive a convex formulation for simulataneous risk allocation and optimization of policies for multi-modal obstacle avoidance constraints. The figure below underscores the importance of this contribution. For \(x\) given by a Gaussian mixture (where \(x\) could denote the distance between vehicles), the figure depicts two formulations for shaping its multi-modal distribution via the means \(\mu\) to satisfy \(\mathbb{P}(x&gt;0)\geq p^\star\).</p>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mm_fixed_vs_risk-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mm_fixed_vs_risk-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mm_fixed_vs_risk-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mm_fixed_vs_risk.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<p>The resulting distributions are shown on the right for the uniform risk and variable risk allocation formulations at the top and bottom respectively. The latter allows satisfaction of the chance constraint without agressive shaping of the distribution, by exploiting the difference in probabilities of the modes. Consequently, this improves the feasibility of MPC optimization problems by allocating less risk to unlikely modes, without compromising on safety! 
+This approach was recently developed and implemented on a full-scale vehicle in collaboration with <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhotae-lee%2F&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw12b_X0XdZSd5_e4wYyrdx5" rel="external nofollow noopener" target="_blank">Hotae Lee</a> and <a href="https://www.linkedin.com/in/ejoa/" rel="external nofollow noopener" target="_blank">Eunhyek Joa</a>:</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <!-- Feel free to change the width and height to your desired video size. -->
+
+<div class="embed-container">
+  <iframe width="700" height="480" src="https://drive.google.com/file/d/1OlLKtdsrdjB6ouUkicfgbMbOIrJaxwe3/preview" frameborder="0" allowfullscreen="true">
+  </iframe>
+</div>
+
+    </div>
+</div>
+<div class="caption">
+    Autonomous lane change at the Richmond Field Station in the presence of two virtual vehicles, with bi-modal predictions. The experimental setup is largely based on <a href="https://arxiv.org/pdf/2304.08576.pdf" rel="external nofollow noopener" target="_blank">Joa*, Lee* et al., IV'23</a>.
+</div>
+
+<p>The technical details will be available soon. Stay tuned!</p>
 
 
           </article>
@@ -292,7 +332,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2023 Siddharth H. Nair. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: June 28, 2023.
+Last updated: August 05, 2023.
       </div>
     </footer>
 
