@@ -74,7 +74,26 @@ Collision avoidance constraints in the presence of uncertainty, are typically im
 For more details, please see our papers from <a href="https://arxiv.org/pdf/2109.09792.pdf">ITSC'22</a> and <a href="https://arxiv.org/pdf/2208.03529.pdf">CDC'22</a>.
 
 
-## Full-scale Vehicle Experiments COMING SOON!
+# Upcoming: 
+In addition to using multi-modal policies, we derive a convex formulation for simulataneous risk allocation and optimization of policies for multi-modal obstacle avoidance constraints. The figure below underscores the importance of this contribution. For $$x$$ given by a Gaussian mixture (where $$x$$ could denote the distance between vehicles), the figure depicts two formulations for shaping its multi-modal distribution via the means $$\mu$$ to satisfy $$\mathbb{P}(x>0)\geq p^\star$$.
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mm_fixed_vs_risk.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+The resulting distributions are shown on the right for the uniform risk and variable risk allocation formulations at the top and bottom respectively. The latter allows satisfaction of the chance constraint without agressive shaping of the distribution, by exploiting the difference in probabilities of the modes. Consequently, this improves the feasibility of MPC optimization problems by allocating less risk to unlikely modes, without compromising on safety! 
+This approach was recently developed and implemented on a full-scale vehicle in collaboration with <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhotae-lee%2F&sa=D&sntz=1&usg=AOvVaw12b_X0XdZSd5_e4wYyrdx5">Hotae Lee</a> and <a href="https://www.linkedin.com/in/ejoa/">Eunhyek Joa</a>:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include googleDrivePlayer.html id="1OlLKtdsrdjB6ouUkicfgbMbOIrJaxwe3/preview" %}
+    </div>
+</div>
+<div class="caption">
+    Autonomous lane change at the Richmond Field Station in the presence of two virtual vehicles, with bi-modal predictions. The experimental setup is largely based on <a href="https://arxiv.org/pdf/2304.08576.pdf">Joa*, Lee* et al., IV'23</a>.
+</div>
+
+The technical details will be available soon. Stay tuned!
 
 
 
