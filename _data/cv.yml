@@ -44,7 +44,7 @@
       description:
         - "Project 1 : Motion planning with Hilbert's space-filling curve" 
         - 'Project 2 : Cooperative control for load-carrying drones'
-        - 'Project 3 : Disrete optimal control on matrix Lie groups'
+        - 'Project 3 : Discrete optimal control on matrix Lie groups'
     - title: Internship
       institution: Drona Aviation Pvt. Ltd.
       year: Aug - Nov 2017
