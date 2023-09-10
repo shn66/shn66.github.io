@@ -86,7 +86,7 @@ This approach was recently developed and implemented on a full-scale vehicle in 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include googleDrivePlayer.html id="1OlLKtdsrdjB6ouUkicfgbMbOIrJaxwe3/preview" %}
+        {% include googleDrivePlayer.html id="1EQJmVHb3AExu1rs3Mw4PRdML_TmWqSpW/preview" %}
     </div>
 </div>
 <div class="caption">
