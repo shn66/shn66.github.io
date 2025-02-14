@@ -52,8 +52,8 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: #C2C0BF;
   --global-text-color-light: #C2C0BF;
-  --global-theme-color: #4fa3f7;
-  --global-hover-color: #4fa3f7;
+  --global-theme-color: rgb(78.8863636364, 162.75, 246.6136363636);
+  --global-hover-color: rgb(78.8863636364, 162.75, 246.6136363636);
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #C2C0BF;
   --global-footer-text-color: #1C1C1D;
