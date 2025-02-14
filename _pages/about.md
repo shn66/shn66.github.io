@@ -9,10 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Room 5109</p>
-    <p>2521 Hearst Avenue </p>
-    <p>Etcheverry Hall </p>
-    <p>Berkeley, CA 94709</p>
+      <p>2150 Shattuck Ave #200</p>
+      <p>Berkeley, CA 94709</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -20,8 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am a fifth-year Ph.D. student majoring in Controls at the Model Predictive Control Laboratory, UC Berkeley. I am advised by Prof. [Francesco Borrelli](https://me.berkeley.edu/people/francesco-borrelli/).
-
+Hi! I am a Senior AI engineer at WideSense, Inc working on simulation and optimization towards making electrification of transit fleets profitable. I graduated with a Ph.D. in Controls from the Model Predictive Control Laboratory, UC Berkeley. I was advised by Prof. [Francesco Borrelli](https://me.berkeley.edu/people/francesco-borrelli/).
 
 My research focuses on developing (1) robust, (2) data-driven, and (3) computationally efficient algorithms for nonlinear MPC by using tools from nonlinear control, optimization and machine learning.
 
